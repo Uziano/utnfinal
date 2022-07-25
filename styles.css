@@ -1,12 +1,44 @@
-.btn-menu{
-
-    
+.body {
+    margin: 0px;
+    background-color: #427E80;
+    color: #F0F5E4;
 }
 
 
-.link{
-
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px;
 }
+
+.menu {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.btn-menu {
+    list-style: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+/* .link{
+
+} */
 
 
 
