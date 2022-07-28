@@ -56,6 +56,25 @@ ul {
 .btn-menu {
     list-style: none;
 }
+
+.link, .btnVideo {
+    box-shadow: 2px 3px #154454;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #F0F5E4;
+    color:#154454 ;
+    font-weight: 300;
+}
+
+.btn-menu:active {
+    transform: translate(3px, 2px);
+}
+
+.btn-menu:active > .item-link{
+    box-shadow:0px 0px ;
+}
+
 li {
     display: list-item;
     text-align: -webkit-match-parent;
@@ -105,14 +124,14 @@ li {
 
 /* Here Comes the Footer */
 
-footer{
+footer {
     background-color: #1d1d1d;
-    height: 80px;
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 80px;
     padding: 0px 40px;
-    color: white;
 }
 
 .footer-leftside {
@@ -129,7 +148,7 @@ footer{
 
 
 /* Otras pestañas */
-
+/* Historia */
 
 
 
