@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Pestaña del Juego</h1>
+   <!-- Por algun motivo sin fix -->
+   <nav>
+        <!-- SVG logo -->
+        <a href="./index.html">
+            <svg  width="200" height="80">
+                <rect x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#3F6797"></rect>
+                <rect x="50" y="10" width="50" height="25" rx="5" id="mon2" fill="#B1D5E4"></rect>
+                <polygon points="55 45 ,95 45,115 62,30 62" fill="#3F6797" id="tec1"></polygon>
+                <polygon points="57 48 ,92 48,104 58,43 58" fill="#B1D5E4" id="tec2"></polygon>
+            </svg>
+        </a>
+        <!-- "Buttons" -->
+        <ul class="menu">
+            <li class="btn-menu">
+                <a class="link" href="./historia.html">Historia</a>
+            </li>
+            <li class="btn-menu">
+                <a class="link" href="./juguemos.html">Juguemos</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1 class="main-title">JUGUEMOS UN POCO</h1> 
+    </header>
+
+    <main>
+        <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+        <section class="game">
+            <!-- Aca se dejan las img -->
+            <div class="dropzone">
+                <div id="zone1">
+                    <p>Arrastre y suelte la imágene aquí</p>
+                </div>
+                <div id="zone2">
+                    <p>Arrastre y suelte la imágene aquí</p>
+                </div>
+                <div id="zone3">
+                    <p>Arrastre y suelte la imágene aquí</p>
+                </div>
+            </div>
+            <!-- De aca sacamos las img -->
+            <div id="grabzone">
+                <img id="img1" src="./assets/imagenes/rompe2.png" />
+                <img id="img2" src="./assets/imagenes/Rompe1.png" />
+                <img id="img3" src="./assets/imagenes/Rompe3.png" />
+            </div>
+        </section>
+        <button class=" btn-menu link reset">Reiniciar</button>
+
+    </main>
+    <script></script>
 </body>
 </html>
